@@ -69,31 +69,47 @@ include CMakeFiles/cp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cp.dir/flags.make
 
-CMakeFiles/cp.dir/main.cpp.o: CMakeFiles/cp.dir/flags.make
-CMakeFiles/cp.dir/main.cpp.o: /Users/josdan/stuff/development/cp/main.cpp
-CMakeFiles/cp.dir/main.cpp.o: CMakeFiles/cp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/josdan/stuff/development/cp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cp.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cp.dir/main.cpp.o -MF CMakeFiles/cp.dir/main.cpp.o.d -o CMakeFiles/cp.dir/main.cpp.o -c /Users/josdan/stuff/development/cp/main.cpp
+CMakeFiles/cp.dir/basics/bitwise/main.cpp.o: CMakeFiles/cp.dir/flags.make
+CMakeFiles/cp.dir/basics/bitwise/main.cpp.o: /Users/josdan/stuff/development/cp/basics/bitwise/main.cpp
+CMakeFiles/cp.dir/basics/bitwise/main.cpp.o: CMakeFiles/cp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/josdan/stuff/development/cp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cp.dir/basics/bitwise/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cp.dir/basics/bitwise/main.cpp.o -MF CMakeFiles/cp.dir/basics/bitwise/main.cpp.o.d -o CMakeFiles/cp.dir/basics/bitwise/main.cpp.o -c /Users/josdan/stuff/development/cp/basics/bitwise/main.cpp
 
-CMakeFiles/cp.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cp.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/josdan/stuff/development/cp/main.cpp > CMakeFiles/cp.dir/main.cpp.i
+CMakeFiles/cp.dir/basics/bitwise/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cp.dir/basics/bitwise/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/josdan/stuff/development/cp/basics/bitwise/main.cpp > CMakeFiles/cp.dir/basics/bitwise/main.cpp.i
 
-CMakeFiles/cp.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cp.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/josdan/stuff/development/cp/main.cpp -o CMakeFiles/cp.dir/main.cpp.s
+CMakeFiles/cp.dir/basics/bitwise/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cp.dir/basics/bitwise/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/josdan/stuff/development/cp/basics/bitwise/main.cpp -o CMakeFiles/cp.dir/basics/bitwise/main.cpp.s
+
+CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.o: CMakeFiles/cp.dir/flags.make
+CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.o: /Users/josdan/stuff/development/cp/basics/bitwise/brute_force_sum_numbers.cpp
+CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.o: CMakeFiles/cp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/josdan/stuff/development/cp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.o -MF CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.o.d -o CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.o -c /Users/josdan/stuff/development/cp/basics/bitwise/brute_force_sum_numbers.cpp
+
+CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/josdan/stuff/development/cp/basics/bitwise/brute_force_sum_numbers.cpp > CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.i
+
+CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/josdan/stuff/development/cp/basics/bitwise/brute_force_sum_numbers.cpp -o CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.s
 
 # Object files for target cp
 cp_OBJECTS = \
-"CMakeFiles/cp.dir/main.cpp.o"
+"CMakeFiles/cp.dir/basics/bitwise/main.cpp.o" \
+"CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.o"
 
 # External object files for target cp
 cp_EXTERNAL_OBJECTS =
 
-cp: CMakeFiles/cp.dir/main.cpp.o
+cp: CMakeFiles/cp.dir/basics/bitwise/main.cpp.o
+cp: CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.o
 cp: CMakeFiles/cp.dir/build.make
 cp: CMakeFiles/cp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/josdan/stuff/development/cp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/josdan/stuff/development/cp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cp.dir/main.cpp.o"
-  "CMakeFiles/cp.dir/main.cpp.o.d"
+  "CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.o"
+  "CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.o.d"
+  "CMakeFiles/cp.dir/basics/bitwise/main.cpp.o"
+  "CMakeFiles/cp.dir/basics/bitwise/main.cpp.o.d"
   "cp"
   "cp.pdb"
 )

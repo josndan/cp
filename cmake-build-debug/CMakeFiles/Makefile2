@@ -81,12 +81,12 @@ clean: CMakeFiles/cp.dir/clean
 CMakeFiles/cp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cp.dir/build.make CMakeFiles/cp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cp.dir/build.make CMakeFiles/cp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/josdan/stuff/development/cp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/josdan/stuff/development/cp/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target cp"
 .PHONY : CMakeFiles/cp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/josdan/stuff/development/cp/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/josdan/stuff/development/cp/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/josdan/stuff/development/cp/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/cp.dir/rule

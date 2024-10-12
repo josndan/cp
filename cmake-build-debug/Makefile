@@ -129,29 +129,53 @@ cp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cp.dir/build.make CMakeFiles/cp.dir/build
 .PHONY : cp/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+basics/bitwise/brute_force_sum_numbers.o: basics/bitwise/brute_force_sum_numbers.cpp.o
+.PHONY : basics/bitwise/brute_force_sum_numbers.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cp.dir/build.make CMakeFiles/cp.dir/main.cpp.o
-.PHONY : main.cpp.o
+basics/bitwise/brute_force_sum_numbers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cp.dir/build.make CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.o
+.PHONY : basics/bitwise/brute_force_sum_numbers.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+basics/bitwise/brute_force_sum_numbers.i: basics/bitwise/brute_force_sum_numbers.cpp.i
+.PHONY : basics/bitwise/brute_force_sum_numbers.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cp.dir/build.make CMakeFiles/cp.dir/main.cpp.i
-.PHONY : main.cpp.i
+basics/bitwise/brute_force_sum_numbers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cp.dir/build.make CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.i
+.PHONY : basics/bitwise/brute_force_sum_numbers.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+basics/bitwise/brute_force_sum_numbers.s: basics/bitwise/brute_force_sum_numbers.cpp.s
+.PHONY : basics/bitwise/brute_force_sum_numbers.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cp.dir/build.make CMakeFiles/cp.dir/main.cpp.s
-.PHONY : main.cpp.s
+basics/bitwise/brute_force_sum_numbers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cp.dir/build.make CMakeFiles/cp.dir/basics/bitwise/brute_force_sum_numbers.cpp.s
+.PHONY : basics/bitwise/brute_force_sum_numbers.cpp.s
+
+basics/bitwise/main.o: basics/bitwise/main.cpp.o
+.PHONY : basics/bitwise/main.o
+
+# target to build an object file
+basics/bitwise/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cp.dir/build.make CMakeFiles/cp.dir/basics/bitwise/main.cpp.o
+.PHONY : basics/bitwise/main.cpp.o
+
+basics/bitwise/main.i: basics/bitwise/main.cpp.i
+.PHONY : basics/bitwise/main.i
+
+# target to preprocess a source file
+basics/bitwise/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cp.dir/build.make CMakeFiles/cp.dir/basics/bitwise/main.cpp.i
+.PHONY : basics/bitwise/main.cpp.i
+
+basics/bitwise/main.s: basics/bitwise/main.cpp.s
+.PHONY : basics/bitwise/main.s
+
+# target to generate assembly for a file
+basics/bitwise/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cp.dir/build.make CMakeFiles/cp.dir/basics/bitwise/main.cpp.s
+.PHONY : basics/bitwise/main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cp"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... basics/bitwise/brute_force_sum_numbers.o"
+	@echo "... basics/bitwise/brute_force_sum_numbers.i"
+	@echo "... basics/bitwise/brute_force_sum_numbers.s"
+	@echo "... basics/bitwise/main.o"
+	@echo "... basics/bitwise/main.i"
+	@echo "... basics/bitwise/main.s"
 .PHONY : help
 
 
